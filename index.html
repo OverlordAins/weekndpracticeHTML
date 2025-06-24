@@ -26,7 +26,7 @@
       rel="stylesheet"
     />
 
-    <title>practice</title>
+    <title>Product</title>
   </head>
   <body>
     <header class="header">
@@ -46,16 +46,24 @@
         <nav class="header-navigation">
           <ul class="header-navigation-list">
             <li class="header-navigation-list-item">
-              <a href="./index.html">Product</a>
+              <a
+                class="header-navigation-list-item-link current"
+                href="./index.html"
+                >Product</a
+              >
             </li>
             <li class="header-navigation-list-item">
-              <a href="./pricing.html">Pricing</a>
+              <a class="header-navigation-list-item-link" href="./pricing.html"
+                >Pricing</a
+              >
             </li>
             <li class="header-navigation-list-item">
-              <a href="./customer.html">Customers</a>
+              <a class="header-navigation-list-item-link" href="./customer.html"
+                >Customers</a
+              >
             </li>
             <li class="header-navigation-list-item">
-              <a href="">Resources</a>
+              <a class="header-navigation-list-item-link" href="">Resources</a>
             </li>
           </ul>
         </nav>
@@ -77,11 +85,89 @@
           </svg>
         </button>
       </div>
+      <div class="mobile-menu">
+        <div class="logo-icon-wrapper">
+          <a class="header-logo" href="./index.html"
+            ><span class="inside-span">
+              <img
+                class="header-logo-image"
+                src="./images/logo.svg"
+                alt="logo"
+                width="40"
+                height="36"
+              />
+              Product
+            </span></a
+          >
+          <button class="header-menu-btn" type="button">
+            <svg class="header-menu-btn-icon" width="28" height="31">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+        </div>
+        <nav class="header-navigation-menu">
+          <ul class="header-navigation-list-menu">
+            <li
+              class="header-navigation-list-item-menu header-menu-items-text-styles"
+            >
+              <a
+                class="header-navigation-list-item-link-menu current ellipse-shadow current"
+                href="./index.html"
+                >Product</a
+              >
+            </li>
+            <li
+              class="header-navigation-list-item-menu header-menu-items-text-styles"
+            >
+              <a
+                class="header-navigation-list-item-link-menu"
+                href="./pricing.html"
+                >Pricing</a
+              >
+            </li>
+            <li
+              class="header-navigation-list-item-menu header-menu-items-text-styles"
+            >
+              <a
+                class="header-navigation-list-item-link-menu"
+                href="./customer.html"
+                >Customers</a
+              >
+            </li>
+            <li
+              class="header-navigation-list-item-menu header-menu-items-text-styles"
+            >
+              <a class="header-navigation-list-item-link-menu" href=""
+                >Resources</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-account-list-menu">
+          <li class="header-account-list-item-menu">
+            <button
+              class="header-account-list-item-in-menu header-menu-items-text-styles"
+              type="button"
+            >
+              Sign In
+            </button>
+          </li>
+          <li class="header-account-list-item-menu">
+            <button
+              class="header-account-list-item-up-menu header-menu-items-text-styles"
+              type="button"
+            >
+              Sign Up
+            </button>
+          </li>
+        </ul>
+      </div>
     </header>
     <main>
       <!-- Work at the speed of thought SECTION (1) -->
-      <div class="container">
-        <section>
+
+      <section class="WORK">
+        <div class="container">
           <h1>Work at the speed of thought</h1>
           <p>
             Tools, tutorials, design and innovation experts, all in one place!
@@ -97,40 +183,44 @@
             width="610"
             height="555"
           />
-        </section>
-      </div>
+        </div>
+      </section>
+
       <!-- Product was Built Specifically for You SECTION (2)-->
-      <div class="container">
-        <section>
+
+      <section class="BUILT">
+        <div class="container">
           <h2>Product was Built Specifically for You</h2>
           <ul>
-            <li>
+            <li class="built-list-item">
               <img src="./images/icon-1.svg" alt="icon1" />
               <h3>First click tests</h3>
               <p>While most people enjoy casino gambling,</p>
             </li>
-            <li>
+            <li class="built-list-item">
               <img src="./images/icon-2.svg" alt="icon2" />
               <h3>Design surveys</h3>
               <p>Sports betting, lottery and bingo playing for the fun</p>
             </li>
-            <li>
+            <li class="built-list-item">
               <img src="./images/icon-3.svg" alt="icon3" />
               <h3>Preference tests</h3>
               <p>The Myspace page defines the individual.</p>
             </li>
-            <li>
+            <li class="built-list-item">
               <img src="./images/icon-4.svg" alt="icon4" />
               <h3>Five second tests</h3>
               <p>Personal choices and the overall personality of the person.</p>
             </li>
           </ul>
           <button type="button">SIGN UP NOW</button>
-        </section>
-      </div>
+        </div>
+      </section>
+
       <!-- 3RD SECTION START HERE -->
-      <div class="container">
-        <section>
+
+      <section class="FEATURES">
+        <div class="container">
           <h2 style="position: absolute; left: -10000px">Features</h2>
           <ul>
             <li>
@@ -179,7 +269,7 @@
                 personality of the person.
               </p>
               <ul>
-                <li>
+                <li class="features-list-item">
                   <img
                     src="./images/icon-yellow.svg"
                     alt="yellow"
@@ -188,7 +278,7 @@
                   />
                   <p>Never worry about overpaying for your energy again.</p>
                 </li>
-                <li>
+                <li class="features-list-item">
                   <img
                     src="./images/icon-red.svg"
                     alt="red"
@@ -200,7 +290,7 @@
                     and will treat you right
                   </p>
                 </li>
-                <li>
+                <li class="features-list-item">
                   <img
                     src="./images/icon-blue.svg"
                     alt="blue"
@@ -245,11 +335,13 @@
               />
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
+
       <!-- Quick & Easy Process START HERE (4)-->
-      <div class="container">
-        <section>
+
+      <section class="QUICK">
+        <div class="container">
           <h2>Quick & Easy Process</h2>
           <p>
             Do you require some help for your project: Conception workshop,
@@ -257,25 +349,37 @@
           </p>
           <ul>
             <li>
-              <img src="./images/avatar.jpg" alt="human1" />
+              <img class="quick-image" src="./images/avatar.jpg" alt="human1" />
               <p>I can take care of your pitch</p>
             </li>
             <li>
-              <img src="./images/avatar (1).jpg" alt="human2" />
+              <img
+                class="quick-image"
+                src="./images/avatar (1).jpg"
+                alt="human2"
+              />
               <p>I can prototype your app</p>
             </li>
             <li>
-              <img src="./images/avatar (2).jpg" alt="human3" />
+              <img
+                class="quick-image"
+                src="./images/avatar (2).jpg"
+                alt="human3"
+              />
               <p>I can take care of your pitch</p>
             </li>
             <li>
-              <img src="./images/avatar (3).jpg" alt="human4" />
+              <img
+                class="quick-image"
+                src="./images/avatar (3).jpg"
+                alt="human4"
+              />
               <p>I can help marketing strategy</p>
             </li>
           </ul>
           <button type="button">Contact our expert</button>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
     <footer>
       <div class="container"></div>

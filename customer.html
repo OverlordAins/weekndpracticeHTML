@@ -26,28 +26,142 @@
       rel="stylesheet"
     />
 
-    <title>customer page</title>
+    <title>Customer</title>
   </head>
   <body>
-    <header>
-      <a href="./index.html">
-        <img src="./images/logo.svg" alt="logo" width="40" height="36" />
-        Product
-      </a>
-
-      <nav>
-        <ul>
-          <li><a href="./index.html">Product</a></li>
-          <li><a href="./pricing.html">Pricing</a></li>
-          <li><a href="./customer.html">Customers</a></li>
-          <li><a href="">Resources</a></li>
+    <header class="header">
+      <div class="container">
+        <a class="header-logo" href="./index.html"
+          ><span class="inside-span">
+            <img
+              class="header-logo-image"
+              src="./images/logo.svg"
+              alt="logo"
+              width="40"
+              height="36"
+            />
+            Product
+          </span></a
+        >
+        <nav class="header-navigation">
+          <ul class="header-navigation-list">
+            <li class="header-navigation-list-item">
+              <a class="header-navigation-list-item-link" href="./index.html"
+                >Product</a
+              >
+            </li>
+            <li class="header-navigation-list-item">
+              <a class="header-navigation-list-item-link" href="./pricing.html"
+                >Pricing</a
+              >
+            </li>
+            <li class="header-navigation-list-item">
+              <a
+                class="header-navigation-list-item-link current"
+                href="./customer.html"
+                >Customers</a
+              >
+            </li>
+            <li class="header-navigation-list-item">
+              <a class="header-navigation-list-item-link" href="">Resources</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-account-list">
+          <li class="header-account-list-item">
+            <button class="header-account-list-item-in" type="button">
+              Sign In
+            </button>
+          </li>
+          <li class="header-account-list-item">
+            <button class="header-account-list-item-up" type="button">
+              Sign Up
+            </button>
+          </li>
         </ul>
-      </nav>
-
-      <ul>
-        <li><button type="button">Sign In</button></li>
-        <li><button type="button">Sign Up</button></li>
-      </ul>
+        <button class="header-menu-btn" type="button">
+          <svg class="header-menu-btn-icon" width="28" height="31">
+            <use href="./images/icons.svg#icon-headermenu"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-menu">
+        <div class="logo-icon-wrapper">
+          <a class="header-logo" href="./index.html"
+            ><span class="inside-span">
+              <img
+                class="header-logo-image"
+                src="./images/logo.svg"
+                alt="logo"
+                width="40"
+                height="36"
+              />
+              Product
+            </span></a
+          >
+          <button class="header-menu-btn" type="button">
+            <svg class="header-menu-btn-icon" width="28" height="31">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+        </div>
+        <nav class="header-navigation-menu">
+          <ul class="header-navigation-list-menu">
+            <li
+              class="header-navigation-list-item-menu header-menu-items-text-styles"
+            >
+              <a
+                class="header-navigation-list-item-link-menu"
+                href="./index.html"
+                >Product</a
+              >
+            </li>
+            <li
+              class="header-navigation-list-item-menu header-menu-items-text-styles"
+            >
+              <a
+                class="header-navigation-list-item-link-menu"
+                href="./pricing.html"
+                >Pricing</a
+              >
+            </li>
+            <li
+              class="header-navigation-list-item-menu header-menu-items-text-styles"
+            >
+              <a
+                class="header-navigation-list-item-link-menu current ellipse-shadow"
+                href="./customer.html"
+                >Customers</a
+              >
+            </li>
+            <li
+              class="header-navigation-list-item-menu header-menu-items-text-styles"
+            >
+              <a class="header-navigation-list-item-link-menu" href=""
+                >Resources</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-account-list-menu">
+          <li class="header-account-list-item-menu">
+            <button
+              class="header-account-list-item-in-menu header-menu-items-text-styles"
+              type="button"
+            >
+              Sign In
+            </button>
+          </li>
+          <li class="header-account-list-item-menu">
+            <button
+              class="header-account-list-item-up-menu header-menu-items-text-styles"
+              type="button"
+            >
+              Sign Up
+            </button>
+          </li>
+        </ul>
+      </div>
     </header>
   </body>
 </html>
