@@ -361,9 +361,20 @@ input {
         .features-list-item {
             display: flex;
             flex-direction: column;
+        }
+
+        .features-list-item-image {
+            align-self: flex-end;
+        }
+
+        .features-list-item-icon {
+            display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
         }
+
+
 
 /*! ---------QUICK AND EASY SECTION--------- !*/
 
@@ -383,6 +394,16 @@ input {
 .quick-image {
     border-radius: 50%;
     transform: translateX(50%);
+    margin-top: 15px;margin-bottom: 15px;
+}
+
+.feature-list-h3h4 {
+    margin-top: 20px;margin-bottom: 20px;
+}
+
+.feature-list-p {
+    margin-top: 20px;
+        margin-bottom: 20px;
 }
 
 
